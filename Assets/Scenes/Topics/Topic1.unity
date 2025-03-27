@@ -153,15 +153,15 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1889241443}
-  - {fileID: 1315221814}
   - {fileID: 848970408}
+  - {fileID: 1315221814}
   - {fileID: 1428569870}
   m_Father: {fileID: 1384124212}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -15.066662}
-  m_SizeDelta: {x: 356.06, y: 165.61}
+  m_AnchoredPosition: {x: 15.04171, y: -40.348766}
+  m_SizeDelta: {x: 688.55, y: 373.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385948514
 MonoBehaviour:
@@ -238,7 +238,72 @@ MonoBehaviour:
     \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043A\u043B\u044E\u0447\u0430\u043C\u0438,
     \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0435 \u0441\u043A\u0440\u044B\u0442\u043E\u0439
     \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438, \u043A\u0432\u0430\u043D\u0442\u043E\u0432\u0443\u044E
-    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044E."
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044E.\n\u0418\u0441\u0442\u043E\u0440\u0438\u044F
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438 \u043D\u0430\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442
+    \u043E\u043A\u043E\u043B\u043E 4 \u0442\u044B\u0441\u044F\u0447 \u043B\u0435\u0442.
+    \u0412 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0433\u043E
+    \u043A\u0440\u0438\u0442\u0435\u0440\u0438\u044F \u043F\u0435\u0440\u0438\u043E\u0434\u0438\u0437\u0430\u0446\u0438\u0438
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E
+    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+    \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438
+    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0445 \u043C\u0435\u0442\u043E\u0434\u043E\u0432
+    \u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u044F.\r\n\r\n\u041F\u0435\u0440\u0432\u044B\u0439
+    \u043F\u0435\u0440\u0438\u043E\u0434 (\u043F\u0440\u0438\u0431\u043B\u0438\u0437\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+    \u0441 3-\u0433\u043E \u0442\u044B\u0441\u044F\u0447\u0435\u043B\u0435\u0442\u0438\u044F
+    \u0434\u043E \u043D. \u044D.) \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0437\u0443\u0435\u0442\u0441\u044F
+    \u0433\u043E\u0441\u043F\u043E\u0434\u0441\u0442\u0432\u043E\u043C \u043C\u043E\u043D\u043E\u0430\u043B\u0444\u0430\u0432\u0438\u0442\u043D\u044B\u0445
+    \u0448\u0438\u0444\u0440\u043E\u0432 (\u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439
+    \u043F\u0440\u0438\u043D\u0446\u0438\u043F \u2014 \u0437\u0430\u043C\u0435\u043D\u0430
+    \u0430\u043B\u0444\u0430\u0432\u0438\u0442\u0430 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0433\u043E
+    \u0442\u0435\u043A\u0441\u0442\u0430 \u0434\u0440\u0443\u0433\u0438\u043C \u0430\u043B\u0444\u0430\u0432\u0438\u0442\u043E\u043C
+    \u0447\u0435\u0440\u0435\u0437 \u0437\u0430\u043C\u0435\u043D\u0443 \u0431\u0443\u043A\u0432
+    \u0434\u0440\u0443\u0433\u0438\u043C\u0438 \u0431\u0443\u043A\u0432\u0430\u043C\u0438
+    \u0438\u043B\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438). \u0412\u0442\u043E\u0440\u043E\u0439
+    \u043F\u0435\u0440\u0438\u043E\u0434 (\u0445\u0440\u043E\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+    \u0440\u0430\u043C\u043A\u0438 \u2014 \u0441 IX \u0432\u0435\u043A\u0430 \u043D\u0430
+    \u0411\u043B\u0438\u0436\u043D\u0435\u043C \u0412\u043E\u0441\u0442\u043E\u043A\u0435
+    (\u0410\u043B-\u041A\u0438\u043D\u0434\u0438) \u0438 \u0441 XV \u0432\u0435\u043A\u0430
+    \u0432 \u0415\u0432\u0440\u043E\u043F\u0435 (\u041B\u0435\u043E\u043D \u0411\u0430\u0442\u0442\u0438\u0441\u0442\u0430
+    \u0410\u043B\u044C\u0431\u0435\u0440\u0442\u0438) \u2014 \u0434\u043E \u043D\u0430\u0447\u0430\u043B\u0430
+    XX \u0432\u0435\u043A\u0430) \u043E\u0437\u043D\u0430\u043C\u0435\u043D\u043E\u0432\u0430\u043B\u0441\u044F
+    \u0432\u0432\u0435\u0434\u0435\u043D\u0438\u0435\u043C \u0432 \u043E\u0431\u0438\u0445\u043E\u0434
+    \u043F\u043E\u043B\u0438\u0430\u043B\u0444\u0430\u0432\u0438\u0442\u043D\u044B\u0445
+    \u0448\u0438\u0444\u0440\u043E\u0432. \u0422\u0440\u0435\u0442\u0438\u0439 \u043F\u0435\u0440\u0438\u043E\u0434
+    (\u0441 \u043D\u0430\u0447\u0430\u043B\u0430 \u0438 \u0434\u043E \u0441\u0435\u0440\u0435\u0434\u0438\u043D\u044B
+    XX \u0432\u0435\u043A\u0430) \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0437\u0443\u0435\u0442\u0441\u044F
+    \u0432\u043D\u0435\u0434\u0440\u0435\u043D\u0438\u0435\u043C \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043C\u0435\u0445\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0445
+    \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432 \u0432 \u0440\u0430\u0431\u043E\u0442\u0443
+    \u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043B\u044C\u0449\u0438\u043A\u043E\u0432.
+    \u041F\u0440\u0438 \u044D\u0442\u043E\u043C \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u043B\u043E\u0441\u044C
+    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435
+    \u043F\u043E\u043B\u0438\u0430\u043B\u0444\u0430\u0432\u0438\u0442\u043D\u044B\u0445
+    \u0448\u0438\u0444\u0440\u043E\u0432.\r\n\r\n\u0427\u0435\u0442\u0432\u0451\u0440\u0442\u044B\u0439
+    \u043F\u0435\u0440\u0438\u043E\u0434 \u2014 \u0441 \u0441\u0435\u0440\u0435\u0434\u0438\u043D\u044B
+    \u0434\u043E 70-\u0445 \u0433\u043E\u0434\u043E\u0432 XX \u0432\u0435\u043A\u0430
+    \u2014 \u043F\u0435\u0440\u0438\u043E\u0434 \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430
+    \u043A \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438. \u0412
+    \u0440\u0430\u0431\u043E\u0442\u0435 \u0428\u0435\u043D\u043D\u043E\u043D\u0430
+    \u043F\u043E\u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F \u0441\u0442\u0440\u043E\u0433\u0438\u0435
+    \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+    \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0430
+    \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438, \u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0438
+    \u0434\u0430\u043D\u043D\u044B\u0445, \u044D\u043D\u0442\u0440\u043E\u043F\u0438\u0438,
+    \u0444\u0443\u043D\u043A\u0446\u0438\u0439 \u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u044F.
+    \u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u043C \u044D\u0442\u0430\u043F\u043E\u043C
+    \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0448\u0438\u0444\u0440\u0430
+    \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044F \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u0435
+    \u0435\u0433\u043E \u0443\u044F\u0437\u0432\u0438\u043C\u043E\u0441\u0442\u0438
+    \u0434\u043B\u044F \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0445
+    \u0430\u0442\u0430\u043A \u2014 \u043B\u0438\u043D\u0435\u0439\u043D\u043E\u0433\u043E
+    \u0438 \u0434\u0438\u0444\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0430\u043D\u0430\u043B\u0438\u0437\u0430.
+    \u041E\u0434\u043D\u0430\u043A\u043E \u0434\u043E 1975 \u0433\u043E\u0434\u0430
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F \u043E\u0441\u0442\u0430\u0432\u0430\u043B\u0430\u0441\u044C
+    \xAB\u043A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0439\xBB,
+    \u0438\u043B\u0438 \u0436\u0435, \u0431\u043E\u043B\u0435\u0435 \u043A\u043E\u0440\u0440\u0435\u043A\u0442\u043D\u043E,
+    \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0435\u0439
+    \u0441 \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u044B\u043C \u043A\u043B\u044E\u0447\u043E\u043C.\r\n\r\n"
 --- !u!222 &385948515
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -314,6 +379,18 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -343,11 +420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.89667
+      value: 313.35507
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -188.27168
+      value: -362.62128
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -460,6 +537,18 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -489,11 +578,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 32
+      value: 81.546875
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -20
+      value: -29.296875
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -747,6 +836,18 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -776,11 +877,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 208.16333
+      value: 373.62173
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -188.27168
+      value: -362.62128
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1048,11 +1149,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 70.01001
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_SizeDelta.y
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4635
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9799693
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4635
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1084,11 +1197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 33.369995
+      value: 42.299988
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -188.53835
+      value: -366.68
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: fde5fa1f5b40be94c961e641a847025c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1178,8 +1291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 165.73334, y: 30.133327}
-  m_SizeDelta: {x: 0, y: -0.6666565}
+  m_AnchoredPosition: {x: 8.32, y: 204.02}
+  m_SizeDelta: {x: -626.32, y: -350.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889241444
 MonoBehaviour:
@@ -1214,7 +1327,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0422\u0435\u043C\u0430 1"
+  m_Text: "\u0412\u0432\u0435\u0434\u0435\u043D\u0438\u0435"
 --- !u!222 &1889241445
 CanvasRenderer:
   m_ObjectHideFlags: 0
