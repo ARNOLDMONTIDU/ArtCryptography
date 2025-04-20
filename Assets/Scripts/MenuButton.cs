@@ -12,11 +12,11 @@ public class MenuButton : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            Debug.Log("Mouse 0 ");
-                ToMenu();
-        }
+        //if (Input.GetKey(KeyCode.Mouse0))
+        //{
+        //    Debug.Log("Mouse 0 ");
+        //        ToMenu();
+        //}
     }
     private void Start()
     {
