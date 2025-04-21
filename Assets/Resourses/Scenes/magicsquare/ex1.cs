@@ -41,7 +41,7 @@ public class ex1 : MonoBehaviour
             resultText.text = "amogus";
         }
 
-        
+         
     }
 
 
