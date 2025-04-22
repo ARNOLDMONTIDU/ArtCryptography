@@ -19,26 +19,26 @@ public class ex1 : MonoBehaviour
 
     private void Start()
     {
-        phrase = "ÀÃÅÍÒ ÏĞÎÂÀËÈËÑß";
-        string resphrase = phrase.Trim();
-        for (int i = 0; i < objects.Length; i++)
-        {
-            string istring = Convert.ToString(i);
-            objects[i].GetComponent<Text>().text = istring;
-        }
+    //    phrase = "ÀÃÅÍÒ ÏĞÎÂÀËÈËÑß";
+    //    string resphrase = phrase.Trim();
+    //    for (int i = 0; i < objects.Length; i++)
+    //    {
+    //        string istring = Convert.ToString(i);
+    //        objects[i].GetComponent<Text>().text = istring;
+    //    }
     }
 
     public void ValidateInput()
     {
-        string input = resultText.text;
+            string input = inputField.text;
 
-        if (input == "123")
+        if (input == "4")
         {
-            resultText.text= "aboba";
+            resultText.text= "Ïğàâèëüíî!!!";
         }
         else
-        {
-            resultText.text = "amogus";
+        {   
+            resultText.text = "Äóğàê ÷òî-ëè?";
         }
 
          
