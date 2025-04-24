@@ -27,7 +27,7 @@ public class ex1 : MonoBehaviour
         //        string istring = Convert.ToString(i);
         //        objects[i].GetComponent<Text>().text = istring;
         //    }
-        HUYNA.text = "QWEW";
+       
     }
 
     public void ValidateInput()
