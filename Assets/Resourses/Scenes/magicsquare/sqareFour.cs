@@ -23,14 +23,11 @@ public class sqareFour : MonoBehaviour
         string resphrase = phrase.Replace(" ", "");
 
 
-
         int n = 4;
         int[,] magicSquare = new int[n, n];
 
         GenerateDoublyEvenMagicSquare(magicSquare, n);
         PrintMagicSquare(magicSquare);
-        zadanieinputfield[1].GetComponent<Text>().text = "1";
-        qwe.text = "1";
     }
 
 
