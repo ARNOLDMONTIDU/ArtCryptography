@@ -13,19 +13,21 @@ public class ex1 : MonoBehaviour
     [SerializeField] Button btnClick;
     [SerializeField] TMP_InputField inputField; 
     [SerializeField] TextMeshProUGUI resultText;
+    [SerializeField] TMP_InputField HUYNA;
     public GameObject[] objects = new GameObject[16];
     
     string phrase = "ÀÃÅÍÒ ÏĞÎÂÀËÈËÑß";
 
     private void Start()
     {
-    //    phrase = "ÀÃÅÍÒ ÏĞÎÂÀËÈËÑß";
-    //    string resphrase = phrase.Trim();
-    //    for (int i = 0; i < objects.Length; i++)
-    //    {
-    //        string istring = Convert.ToString(i);
-    //        objects[i].GetComponent<Text>().text = istring;
-    //    }
+        //    phrase = "ÀÃÅÍÒ ÏĞÎÂÀËÈËÑß";
+        //    string resphrase = phrase.Trim();
+        //    for (int i = 0; i < objects.Length; i++)
+        //    {
+        //        string istring = Convert.ToString(i);
+        //        objects[i].GetComponent<Text>().text = istring;
+        //    }
+        HUYNA.text = "QWEW";
     }
 
     public void ValidateInput()
@@ -34,11 +36,11 @@ public class ex1 : MonoBehaviour
 
         if (input == "4")
         {
-            resultText.text= "Ïğàâèëüíî!!!";
+            inputField.text= "Ïğàâèëüíî!!!";
         }
         else
-        {   
-            resultText.text = "Äóğàê ÷òî-ëè?";
+        {
+            inputField.text = "Äóğàê ÷òî-ëè?";
         }
 
          

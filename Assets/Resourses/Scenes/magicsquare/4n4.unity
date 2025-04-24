@@ -12450,6 +12450,7 @@ MonoBehaviour:
   btnClick: {fileID: 1425727477}
   inputField: {fileID: 1748449338}
   resultText: {fileID: 409695796}
+  HUYNA: {fileID: 1285959337}
   objects:
   - {fileID: 0}
   - {fileID: 0}
