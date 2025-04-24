@@ -9,8 +9,8 @@ using System;
 public class ex1 : MonoBehaviour
 {
 
-    
-    public Button btnClick;
+
+    [SerializeField] Button btnClick;
     [SerializeField] TMP_InputField inputField; 
     [SerializeField] TextMeshProUGUI resultText;
     public GameObject[] objects = new GameObject[16];
@@ -30,7 +30,7 @@ public class ex1 : MonoBehaviour
 
     public void ValidateInput()
     {
-            string input = inputField.text;
+        string input = inputField.text;
 
         if (input == "4")
         {

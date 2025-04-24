@@ -1,19 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class MenuMeneger : MonoBehaviour
+
+public class ToMainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoadMenuScene()
     {
-        Debug.Log("Hello World");
+        SceneManager.LoadScene(0);
+        Debug.Log("Переход на другую сцену");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-}
+}       

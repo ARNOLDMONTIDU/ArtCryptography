@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Resourses/Scenes/MainMenu.unity
+    path: Assets/Resourses/Scenes/Menues/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Resourses/Scenes/TopicMenu.unity
+    path: Assets/Resourses/Scenes/Menues/TopicMenu.unity
     guid: 0c8b4f7bf5cc1b649ac5d0e4cbed8a68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Resourses/Scenes/magicsquare/ex1.unity
     guid: e4a2a3d57473d7b44a16a8c833ce315e
   m_configObjects: {}
