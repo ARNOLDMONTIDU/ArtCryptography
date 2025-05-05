@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Resourses/Scenes/Menues/ExMenu.unity
     guid: 0527fd7222686614bb4e62e5dedfeb71
   - enabled: 1
+    path: Assets/Resourses/Scenes/Menues/MagicSquare.unity
+    guid: 3f8eecbf5c0be2d42a81025729df2e62
+  - enabled: 1
+    path: Assets/Resourses/Scenes/magicsquare/3on3.unity
+    guid: 64adcc4df54c0ba4fbfa343dbdd4c2e6
+  - enabled: 1
     path: Assets/Resourses/Scenes/magicsquare/4n4.unity
     guid: 6f0134035378f0d43858c8079aece9c3
+  - enabled: 1
+    path: Assets/Resourses/Scenes/magicsquare/5on5.unity
+    guid: 7a9a0fca71b9cfe4fb95d8a74ff42c37
   m_configObjects: {}

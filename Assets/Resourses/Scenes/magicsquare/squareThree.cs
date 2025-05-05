@@ -1,49 +1,47 @@
 using System.Collections;
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
-public class sqareFour : MonoBehaviour
+public class squareThree : MonoBehaviour
 {
-    
+
     [SerializeField] Button btnClick;
     [SerializeField] TMP_InputField inputField;
     [SerializeField] TextMeshProUGUI resultText;
-    public TMP_InputField[] zadanieinputfield = new TMP_InputField[16];
+    public TMP_InputField[] zadanieinputfield = new TMP_InputField[9];
 
+    // Start is called before the first frame update
     void Start()
     {
-        string phrase = "АГЕНТ ПРОВАЛИЛСЯ";
-        int[] massiv = {1,15,14,4,12,6,7,9,8,10,11,5,13,3,2,16};
+        string phrase = "агентский";
+        int[] massiv =  {2,7,6,9,5,1,4,3,8};
         int i = 0;
 
         foreach (var inputField in zadanieinputfield)
-        {
+        {   
             //massiv[i] = Random.Range(0, 16);
             inputField.text = massiv[i].ToString();
             i++;
         }
     }
 
-
-
-
     public void ValidateInput()
     {
         string input = inputField.text;
 
-        if (input == "асднл_порветиегя" || input == "АСДНЛ_ПОРВЕТИЕГЯ")
+        if (input == "гксйтанеи" || input == "ГКСЙТАНЕИ")
         {
             resultText.text = "Правильно!!!";
         }
         else
         {
-            resultText.text = "Неверно!!!";
+            resultText.text = "Неверно";
         }
 
 
     }
+
+
 }

@@ -9,7 +9,7 @@ public class ToMainMenu : MonoBehaviour
     public void LoadMenuScene()
     {
         SceneManager.LoadScene(0);
-        Debug.Log("Переход на другую сцену");
+        Debug.Log("Главное меню");
     }
     public void LoadЕxScene()
     {
@@ -22,3 +22,4 @@ public class ToMainMenu : MonoBehaviour
         Debug.Log("Переход на другую сцену");
     }
 }       
+
