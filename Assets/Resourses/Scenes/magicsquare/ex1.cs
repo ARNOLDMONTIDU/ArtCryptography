@@ -6,10 +6,10 @@ using TMPro;
 using Unity.VisualScripting;
 using System;
 
+//4 on 4
+
 public class ex1 : MonoBehaviour
 {
-
-
     [SerializeField] Button btnClick;
     [SerializeField] TMP_InputField inputField; 
     [SerializeField] TextMeshProUGUI resultText;

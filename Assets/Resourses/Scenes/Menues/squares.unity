@@ -492,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: abf48adf1c7ef2d4b9227eb874551792, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95.67003
+      value: -95.670044
       objectReference: {fileID: 0}
     - target: {fileID: 6009690226793682546, guid: abf48adf1c7ef2d4b9227eb874551792, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 1371311053}
   - component: {fileID: 1371311052}
   - component: {fileID: 1371311051}
-  - component: {fileID: 1371311050}
+  - component: {fileID: 1371311054}
   m_Layer: 5
   m_Name: "4 \u043D\u0430 4"
   m_TagString: Untagged
@@ -619,18 +619,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -188.99998}
   m_SizeDelta: {x: 326.04, y: 60.31}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1371311050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371311048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa9ef62c33236de41a9d7a66e50d9b78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1371311051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,13 +663,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 695e6d4471d74804a8e8389fe4421c5a, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1371311054}
+        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
+        m_MethodName: Loadex2Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -725,6 +713,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371311048}
   m_CullTransparentMesh: 1
+--- !u!114 &1371311054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371311048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1426962125
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +737,7 @@ GameObject:
   - component: {fileID: 1426962129}
   - component: {fileID: 1426962128}
   - component: {fileID: 1426962127}
+  - component: {fileID: 1426962130}
   m_Layer: 5
   m_Name: "3 \u043D\u0430 3"
   m_TagString: Untagged
@@ -808,9 +809,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: f5ec818019569ea468944dbd663f4866, type: 3}
+      - m_Target: {fileID: 1426962130}
         m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Loadex1Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -858,6 +859,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426962125}
   m_CullTransparentMesh: 1
+--- !u!114 &1426962130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426962125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1503329689
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,8 +971,8 @@ RectTransform:
   - {fileID: 1983624771}
   - {fileID: 2059942578}
   - {fileID: 1426962126}
-  - {fileID: 1857998413}
   - {fileID: 1371311049}
+  - {fileID: 1857998413}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1419,7 +1432,7 @@ GameObject:
   - component: {fileID: 1857998417}
   - component: {fileID: 1857998416}
   - component: {fileID: 1857998415}
-  - component: {fileID: 1857998414}
+  - component: {fileID: 1857998418}
   m_Layer: 5
   m_Name: "5 \u043D\u0430 5"
   m_TagString: Untagged
@@ -1436,7 +1449,7 @@ RectTransform:
   m_GameObject: {fileID: 1857998412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_LocalScale: {x: 1.0000798, y: 1.0000798, z: 1.0000798}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 232214051}
@@ -1447,18 +1460,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -270}
   m_SizeDelta: {x: 326.04, y: 60.31}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1857998414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857998412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25cd26b056360ba4593d89a2feadc138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1857998415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,13 +1504,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1857998414}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1857998418}
+        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
+        m_MethodName: Loadex3Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1553,6 +1554,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857998412}
   m_CullTransparentMesh: 1
+--- !u!114 &1857998418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857998412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980190801
 GameObject:
   m_ObjectHideFlags: 0
