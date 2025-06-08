@@ -13,10 +13,9 @@ public class ex1 : MonoBehaviour
     [SerializeField] Button btnClick;
     [SerializeField] TMP_InputField inputField; 
     [SerializeField] TextMeshProUGUI resultText;
-    [SerializeField] TMP_InputField HUYNA;
-    public GameObject[] objects = new GameObject[16];
+    public GameObject[] objects = new GameObject[25];
     
-    string phrase = "АГЕНТ ПРОВАЛИЛСЯ";
+    string phrase = "";
 
     private void Start()
     {
@@ -34,13 +33,13 @@ public class ex1 : MonoBehaviour
     {
         string input = inputField.text;
 
-        if (input == "4")
+        if (input == "")
         {
-            inputField.text= "Правильно!!!";
+            resultText.text= "Правильно!!!";
         }
         else
         {
-            inputField.text = "Дурак что-ли?";
+            resultText.text = "Неверно!!!";
         }
 
          

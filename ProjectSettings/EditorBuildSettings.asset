@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resourses/Scenes/Menues/squares.unity
     guid: 88779429caea2e24183a0faf1fecb2ac
+  - enabled: 1
+    path: Assets/Resourses/Scenes/cezar/cesarEx.unity
+    guid: c099dad497bc7354296ac2590e6a0669
   m_configObjects: {}

@@ -36,6 +36,26 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(5);
         Debug.Log("квадраты");
     }
+    public void LoadCesarsScene()
+    {
+        SceneManager.LoadScene(6);
+        Debug.Log("Цезари");
+    }
+    public void LoadCesar1Scene()
+    {
+        SceneManager.LoadScene(7);
+        Debug.Log("Цезарь1");
+    }
+    public void LoadCesars2Scene()
+    {
+        SceneManager.LoadScene(8);
+        Debug.Log("Цезарь2");
+    }
+    public void LoadCesars3Scene()
+    {
+        SceneManager.LoadScene(9);
+        Debug.Log("Цезарь3");
+    }
 
 
 }       
