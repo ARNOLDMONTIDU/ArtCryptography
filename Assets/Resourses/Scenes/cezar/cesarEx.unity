@@ -662,19 +662,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1371311052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1371311054}
-        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: Loadex2Scene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1371311052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +799,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1426962130}
         m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: Loadex1Scene
+        m_MethodName: LoadCesar1Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1503,19 +1491,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1857998416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1857998418}
-        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: Loadex3Scene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1857998416
 MonoBehaviour:
   m_ObjectHideFlags: 0
