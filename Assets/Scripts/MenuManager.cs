@@ -1,20 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class ToMainMenu : MonoBehaviour
 {
-    public void LoadMenuScene()
+    [SerializeField] TMP_InputField inputUser;
+    [SerializeField] TMP_InputField inputGroup;
+        
+    public void Autorization()
     {
-        SceneManager.LoadScene(0);
-        Debug.Log("Главное меню");
+        string user = inputUser.text;
+        string group = inputGroup.text;
+
+
+        SceneManager.LoadScene(9);
+        Debug.Log(user);
+        Debug.Log(group);
     }
     public void LoadЕxScene()
     {
         SceneManager.LoadScene(1);
-        Debug.Log("Задания");
+        Debug.Log("Задания практические");
     }
     public void Loadex1Scene()
     {
@@ -46,16 +55,17 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(7);
         Debug.Log("Цезарь1");
     }
-    public void LoadCesars2Scene()
+    public void LoadMenuScene()
     {
         SceneManager.LoadScene(8);
-        Debug.Log("Цезарь2");
+        Debug.Log("Главное меню");
     }
-    public void LoadCesars3Scene()
+    public void TheoryMenu()
     {
-        SceneManager.LoadScene(9);
-        Debug.Log("Цезарь3");
+        SceneManager.LoadScene(10);
+        Debug.Log("Меню теории");
     }
+    
 
 
 }       

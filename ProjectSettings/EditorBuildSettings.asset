@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Resourses/Scenes/Menues/MainMenu.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Resourses/Scenes/Menues/authorization.unity
+    guid: 796419d0e7e3db340a2308b716701c43
   - enabled: 1
     path: Assets/Resourses/Scenes/Menues/ExMenu.unity
     guid: 0527fd7222686614bb4e62e5dedfeb71
-  - enabled: 0
-    path: Assets/Resourses/Scenes/Menues/MagicSquare.unity
-    guid: 3f8eecbf5c0be2d42a81025729df2e62
   - enabled: 1
     path: Assets/Resourses/Scenes/magicsquare/3on3.unity
     guid: 64adcc4df54c0ba4fbfa343dbdd4c2e6
@@ -24,12 +21,21 @@ EditorBuildSettings:
     path: Assets/Resourses/Scenes/magicsquare/5on5.unity
     guid: 7a9a0fca71b9cfe4fb95d8a74ff42c37
   - enabled: 1
-    path: Assets/Resourses/Scenes/Menues/squares.unity
+    path: Assets/Resourses/Scenes/magicsquare/squares.unity
     guid: 88779429caea2e24183a0faf1fecb2ac
   - enabled: 1
-    path: Assets/Resourses/Scenes/cezar/cesarEx.unity
+    path: Assets/Resourses/Scenes/cezar/cesarMenu.unity
     guid: c099dad497bc7354296ac2590e6a0669
   - enabled: 1
     path: Assets/Resourses/Scenes/cezar/cesar1.unity
     guid: 876afc331d8f6d549a75c9d263522114
+  - enabled: 1
+    path: Assets/Resourses/Scenes/Menues/MainMenu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Resourses/Scenes/Menues/TheoryMENu.unity
+    guid: 94636f5aafe5c924da44f4df69f13982
+  - enabled: 1
+    path: Assets/Resourses/Scenes/Menues/report.unity
+    guid: 6c9686d5427cd4040bf908e4a981cfb6
   m_configObjects: {}
