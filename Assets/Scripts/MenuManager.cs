@@ -1,25 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class ToMainMenu : MonoBehaviour
 {
-    [SerializeField] TMP_InputField inputUser;
-    [SerializeField] TMP_InputField inputGroup;
-        
-    public void Autorization()
-    {
-        string user = inputUser.text;
-        string group = inputGroup.text;
-
-
-        SceneManager.LoadScene(9);
-        Debug.Log(user);
-        Debug.Log(group);
-    }
     public void LoadÅxScene()
     {
         SceneManager.LoadScene(1);
@@ -65,8 +49,8 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(10);
         Debug.Log("Ìåíþ òåîðèè");
     }
-    
 
 
-}       
+
+}
 
