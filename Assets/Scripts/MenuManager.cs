@@ -46,11 +46,24 @@ public class ToMainMenu : MonoBehaviour
     }
     public void TheoryMenu()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(9);
         Debug.Log("Меню теории");
+
     }
+    public void Report()
+    {
+        SceneManager.LoadScene(10);
+        Debug.Log("report");
 
-
-
+    }
+    public void LoadCesar2Scene()
+    {
+        SceneManager.LoadScene(11);
+        Debug.Log("Цезарь2");
+    }
+    public void LoadCesar3Scene()
+    {
+        SceneManager.LoadScene(12);
+        Debug.Log("Цезарь3");
+    }
 }
-

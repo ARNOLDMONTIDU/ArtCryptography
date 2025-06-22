@@ -794,7 +794,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1371311052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1371311054}
+        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
+        m_MethodName: LoadCesar2Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1371311052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,8 +857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputUser: {fileID: 0}
-  inputGroup: {fileID: 0}
 --- !u!1 &1426962125
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,8 +1003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputUser: {fileID: 0}
-  inputGroup: {fileID: 0}
 --- !u!1 &1503329689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,7 +1636,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1857998416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1857998418}
+        m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
+        m_MethodName: LoadCesar3Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1857998416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,8 +1699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputUser: {fileID: 0}
-  inputGroup: {fileID: 0}
 --- !u!1 &1980190801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,8 +1890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe12870e52be6f46925e73dceff57b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputUser: {fileID: 0}
-  inputGroup: {fileID: 0}
 --- !u!114 &2059942580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1920,7 +1936,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2059942579}
         m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: Loadex1Scene
+        m_MethodName: LoadCesarsScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
