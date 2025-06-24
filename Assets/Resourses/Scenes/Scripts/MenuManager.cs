@@ -66,4 +66,14 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(12);
         Debug.Log("Цезарь3");
     }
+    public void LoadMagicTheory()
+    {
+        SceneManager.LoadScene(13);
+        Debug.Log("Магическая теория");
+    }
+    public void LoadMagicQuestions()
+    {
+        SceneManager.LoadScene(14);
+        Debug.Log("контр вопросы");
+    }
 }

@@ -16,11 +16,12 @@ public class cesar1 : MonoBehaviour
     [SerializeField] TextMeshProUGUI resultText;
     public TMP_InputField[] alfavit = new TMP_InputField[33];
     public TMP_InputField[] zadanieinputfield = new TMP_InputField[33];
+    [SerializeField] GameObject questions;
     
 
     void Start()
     {
-        
+        questions.SetActive(false);
     }
 
     public void ValidateInput()
@@ -54,9 +55,10 @@ public class cesar1 : MonoBehaviour
         if (input == rightAnsver)
         {
             resultText.text = "Правильно";
+            questions.SetActive(true);
         }
         else
-        {
+        {       
             resultText.text = "Неверно";
         }
 

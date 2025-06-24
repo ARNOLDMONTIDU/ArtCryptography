@@ -13,17 +13,17 @@ public class squareThree : MonoBehaviour
     [SerializeField] TMP_InputField inputField;
     [SerializeField] TextMeshProUGUI resultText;
     public TMP_InputField[] zadanieinputfield = new TMP_InputField[9];
+    [SerializeField] GameObject nextBtn;
 
-    // Start is called before the first frame update
     void Start()
     {
+        nextBtn.SetActive(false);
         string phrase = "агентский";
         int[] massiv =  {2,7,6,9,5,1,4,3,8};
         int i = 0;
 
         foreach (var inputField in zadanieinputfield)
         {   
-            //massiv[i] = Random.Range(0, 16);
             inputField.text = massiv[i].ToString();
             i++;
         }
@@ -31,11 +31,12 @@ public class squareThree : MonoBehaviour
 
     public void ValidateInput()
     {
-        string input = inputField.text;
+        string input = inputField.text.ToUpper();
 
-        if (input == "гксйтанеи" || input == "ГКСЙТАНЕИ")
+        if (input == "ГКСЙТАНЕИ")
         {
-            resultText.text = "Правильно!!!";
+            nextBtn.SetActive(true);
+            resultText.text = "Правильно";
         }
         else
         {

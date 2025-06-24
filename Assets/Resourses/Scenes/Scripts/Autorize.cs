@@ -9,7 +9,7 @@ public class Autorize : MonoBehaviour
     {
         string user = inputUser.text;
         string group = inputGroup.text;
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(8);
         Debug.Log(user);
         Debug.Log(group);
     }

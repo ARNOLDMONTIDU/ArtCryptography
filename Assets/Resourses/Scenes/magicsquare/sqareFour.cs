@@ -15,9 +15,10 @@ public class sqareFour : MonoBehaviour
     [SerializeField] TMP_InputField inputField;
     [SerializeField] TextMeshProUGUI resultText;
     public TMP_InputField[] zadanieinputfield = new TMP_InputField[16];
-
+    [SerializeField] GameObject nextBtn;
     void Start()
     {
+        nextBtn.SetActive(false);
         //string phrase = "АГЕНТ ПРОВАЛИЛСЯ";
         int[] massiv = {1,15,14,4,12,6,7,9,8,10,11,5,13,3,2,16};
         int i = 0;
@@ -35,15 +36,16 @@ public class sqareFour : MonoBehaviour
 
     public void ValidateInput()
     {
-        string input = inputField.text;
+        string input = inputField.text.ToUpper();
 
-        if (input == "асднл_порветиегя" || input == "АСДНЛ_ПОРВЕТИЕГЯ")
+        if (input == "АСДНЛ_ПОРВЕТИЕГЯ")
         {
-            resultText.text = "Правильно!!!";
+            nextBtn.SetActive(true);
+            resultText.text = "Правильно";
         }
         else
         {
-            resultText.text = "Неверно!!!";
+            resultText.text = "Неверно";
         }
 
 

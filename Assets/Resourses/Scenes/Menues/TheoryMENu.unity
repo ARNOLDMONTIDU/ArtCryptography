@@ -400,7 +400,6 @@ GameObject:
   - component: {fileID: 194396560}
   - component: {fileID: 194396565}
   - component: {fileID: 194396564}
-  - component: {fileID: 194396566}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -533,18 +532,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194396559}
   m_CullTransparentMesh: 1
---- !u!114 &194396566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194396559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25cd26b056360ba4593d89a2feadc138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &197364208
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0426\u0435\u0437\u0430\u0440\u044F"
+  m_text: "\u0428\u0438\u0444\u0440 \u0426\u0435\u0437\u0430\u0440\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b044b080d64027f4abde5e42a2683279, type: 2}
   m_sharedMaterial: {fileID: -2605108445382377312, guid: b044b080d64027f4abde5e42a2683279, type: 2}
@@ -1612,7 +1599,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2049559130}
         m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: LoadeSquaresScene
+        m_MethodName: LoadMagicTheory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
