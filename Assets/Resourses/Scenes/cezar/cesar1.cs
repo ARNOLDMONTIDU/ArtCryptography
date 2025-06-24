@@ -17,6 +17,7 @@ public class cesar1 : MonoBehaviour
     public TMP_InputField[] alfavit = new TMP_InputField[33];
     public TMP_InputField[] zadanieinputfield = new TMP_InputField[33];
     [SerializeField] GameObject questions;
+
     
 
     void Start()
@@ -41,13 +42,13 @@ public class cesar1 : MonoBehaviour
         else if (currentSceneIndex == 11)
         {
             phrase= "” лукоморь€ дуб зелЄный;«лата€ цепь на дубе том:";
-            
+            questions.SetActive(true);
             rightAnsver = "џ”џ“÷‘÷∆ЎƒЋџ»ѕћ”Ќ’√—ўЁ—ƒ—–«÷ЅЌя—’≈“÷ƒјё";
         }       
         else if (currentSceneIndex == 12)
         {
             phrase = "ƒайте мне точку опоры и € переверну земной шар";
-
+            questions.SetActive(true);
             rightAnsver = "„”Ё®ЎјЅЎ’—ЏЌ÷—“—”ёЋ¬“«”«≈«”–÷—ќ÷„Ў”¬…Џ";
 
         }

@@ -18,7 +18,7 @@ public class squareThree : MonoBehaviour
     void Start()
     {
         nextBtn.SetActive(false);
-        string phrase = "агентский";
+        //string phrase = "агентский";
         int[] massiv =  {2,7,6,9,5,1,4,3,8};
         int i = 0;
 
