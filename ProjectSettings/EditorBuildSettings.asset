@@ -50,10 +50,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resourses/Scenes/Scripts/topics/TestMagicSquare.unity
     guid: 7e2dfc93cf2eff64d9f1eb6d8f298af0
-  - enabled: 1
-    path: Assets/Resourses/Scenes/Scripts/topics/TheoryCesar.unity
-    guid: e3906b2c3fa6f9d4c8b4659b4a75e815
-  - enabled: 1
-    path: Assets/Resourses/Scenes/cezar/obucCcesar.unity
-    guid: 71e1acefc181495459bdcf93fe5ce248
   m_configObjects: {}

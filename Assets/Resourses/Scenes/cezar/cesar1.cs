@@ -52,14 +52,6 @@ public class cesar1 : MonoBehaviour
             rightAnsver = "×Óİ¨ØÀÁØÕÑÚÍÖÑÒÑÓŞËÂÒÇÓÇÅÇÓĞÖÑÎÖ×ØÓÂÉÚ";
 
         }
-        else if (currentSceneIndex == 16)
-        {
-            phrase = "Ñ÷àñòüå";
-            questions.SetActive(true);
-            rightAnsver = "ÔÚÃÔÕßÇ";
-
-        }
-        //ôúãôõÿç
 
         if (input == rightAnsver)
         {

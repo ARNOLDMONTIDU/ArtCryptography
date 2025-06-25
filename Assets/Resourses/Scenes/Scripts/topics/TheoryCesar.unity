@@ -1423,7 +1423,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1425727481}
         m_TargetAssemblyTypeName: ToMainMenu, Assembly-CSharp
-        m_MethodName: ObuchCesar
+        m_MethodName: LoadCesar1Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

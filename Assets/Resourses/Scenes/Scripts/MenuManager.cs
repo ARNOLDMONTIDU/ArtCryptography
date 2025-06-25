@@ -76,15 +76,4 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(14);
         Debug.Log("контр вопросы");
     }
-
-    public void CesarTheory()
-    {
-        SceneManager.LoadScene(15);
-        Debug.Log("Цезарь теория");
-    }
-    public void ObuchCesar ()
-    {
-        SceneManager.LoadScene(16);
-        Debug.Log("контр вопросы");
-    }
 }
