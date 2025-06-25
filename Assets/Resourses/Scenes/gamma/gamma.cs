@@ -32,8 +32,9 @@ public class gamma : MonoBehaviour
         }
         else
         {
-            resultText.text = "Неверно";
+            resultText.text = "Неверно ";
         }
+
 
         
         
