@@ -38,7 +38,7 @@ public class sqareFour : MonoBehaviour
     {
         string input = inputField.text.ToUpper();
 
-        if (input == "ÀÑÄÍË_ÏÎĞÂÅÒÈÅÃß")
+        if (input == "ÀÑËÍË_ÏÎĞÂÅÒÈÅÃß")
         {
             nextBtn.SetActive(true);
             resultText.text = "Ïğàâèëüíî";

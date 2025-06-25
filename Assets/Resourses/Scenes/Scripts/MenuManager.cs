@@ -71,7 +71,7 @@ public class ToMainMenu : MonoBehaviour
         SceneManager.LoadScene(13);
         Debug.Log("Магическая теория");
     }
-    public void LoadMagicQuestions()
+    public void LoadMagicQuestionsMagic()
     {
         SceneManager.LoadScene(14);
         Debug.Log("контр вопросы");
