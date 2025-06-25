@@ -19,7 +19,10 @@ public class squareThree : MonoBehaviour
     {
         nextBtn.SetActive(false);
         //string phrase = "àãåíòñêèé";
-        int[] massiv =  {2,7,6,9,5,1,4,3,8};
+        int[] massiv =  
+            {2,7,6
+            ,9,5,1,
+            4,3,8};
         int i = 0;
 
         foreach (var inputField in zadanieinputfield)
@@ -33,7 +36,7 @@ public class squareThree : MonoBehaviour
     {
         string input = inputField.text.ToUpper();
 
-        if (input == "ÃÊÑÉÒÀÍÅÈ")
+        if (input == "ÃÊÑÉÒÀÍÅÈ"||input == "ÏËÀÀÃØĞÀÊ")
         {
             nextBtn.SetActive(true);
             resultText.text = "Ïğàâèëüíî";
